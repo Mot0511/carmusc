@@ -1,0 +1,209 @@
+.header-content{
+    margin-top: 168px;
+}
+.header-content__heading{
+    color: #DB3138;
+    font-size: 150px;
+    margin-bottom: 40px;
+}
+.header-content__desc{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+.data{
+    height: 216px;
+
+    display: flex;
+    margin-top: 100px;
+}
+.data-item{
+    border: 1px solid #898989;
+    width: 33.3%;
+    padding-top: 50px;
+}
+.data-item__title{
+    text-align: center;
+}
+.data-item__content{
+    text-align: center;
+    margin-top: 23px;
+    color: #DB3138;
+    font-size: 24px;
+}
+.progress{
+    height: 1000px;
+    width: 70%;
+    margin-top: 180px;
+    display: flex;
+}
+.progress-info, .progress-items{
+    width: 50%;
+}
+.progress-items{
+    margin-left: 70px;
+    display: flex;
+}
+.progerss-info__title{
+    margin-bottom: 50px;
+    font-size: 52px;
+}
+.progerss-info__desc{
+    margin-top: 60px;
+    font-size: 24px;
+}
+.progress-items__col2{
+    margin-top: 50px;
+}
+.progress-items__col__item{
+    width: 318px;
+    height: 157px;
+    border: 1px solid #444444;
+    padding-top: 20px;
+}
+.progress-items__col__item__number{
+    color: #DB3138;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.progress-items__col__item__desc{
+    font-size: 16px;
+    text-align: center;
+}
+.advantage{
+    display: flex;
+    width: 70%;
+    margin-top: 194px;
+}
+.advantage-items{
+    width: 45%;
+    margin-right: 10%;
+}
+.advantage-items__title{
+    display: flex;
+    align-items: center;
+}
+.advantage-items__title img{
+    width: 56px;
+    height: auto;
+}
+.advantage-items__title p{
+    font-size: 32px;
+    margin-left: 36px;
+}
+.advantage-items__text{
+    font-size: 24px;
+    margin-top: 30px;
+}
+.advantage-images{
+    width: 45%;
+    position: relative;
+}
+.portfolio{
+    margin-top: 179px;
+}
+.services{
+    margin-top: 181px;
+}
+.heading{
+    font-size: 52px;
+    text-align: center;
+}
+.portfolio-photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-photos img{
+    width: 16.6%;
+}
+.answer-form{
+    margin-top: 114px;
+    width: 50%;
+}
+.answer-form__title{
+    font-size: 52px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.input{
+    width: 45%;
+    height: 47px;
+    margin-right: 24px;
+    background: none;
+    border: 1px solid #898989;
+    padding-left: 20px;
+}
+.input::placeholder, .textarea::placeholder{
+    font-size: 16px;
+    color: grey;
+}
+.question-socials{
+    margin-top: 24px;
+    position: relative;
+}
+.textarea{
+    width: 70%;
+    height: 150px;
+    border: 1px solid grey;
+    background: none;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.socials{
+    position: absolute;
+    right: 28px;
+}
+.social{
+    margin-bottom: 15px;
+}
+.contacts__text{
+    display: inline;
+
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+.place{
+    display: flex;
+    align-items: center;
+}
+.contacts__icon{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.contacts-place{
+    margin-top: 50px;
+    position: absolute;
+    right: 28px;
+}
+.send-contacts{
+    position: relative;
+}
+@media screen and (max-width: 1300px){
+    .progress-items{
+        flex-wrap: wrap;
+    }
+    .progress{
+        height: 1600px;
+    }
+    .progress-items__col2{
+        margin-top: -170px;
+    }
+    .advantage{
+        flex-wrap: wrap;
+    }
+    .advantage-items, .advantage-images{
+        width: 100%;
+    }
+    .services{
+        width: 100%;
+    }
+    .header-content{
+        margin-top: 30px;
+    }
+}

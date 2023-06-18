@@ -1,0 +1,14 @@
+.cat-btn{
+    height: 75px;
+    background: none;
+    border: 0;
+    font-size: 32px;
+    padding: 0 20px;
+}
+.cat-btn:hover{
+    background-color: #DB3138;
+}
+.services-categories{
+    display: flex;
+    justify-content: center;
+}
